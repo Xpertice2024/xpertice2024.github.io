@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArxaTEC</title>
+  <link rel="shortcut icon" href="../images/logarxa1.png" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header" data-header>
+
+    
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li>
+            <a href="mailto:info@homeverse.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <span>ArxaTEC@gmail.com</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>Edificio Galena, Piso 1000</address>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          
+        </div>
+
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logarxa1.png" alt="Homeverse logo"> 
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.png" alt="Homeverse logo">
+              
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+              </li>
+
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link>Sobre Nosotros</a>
+              </li>
+
+              <li>
+                <a href="#service" class="navbar-link" data-nav-link>Servicios</a>
+              </li>
+
+              <li>
+                <a href="#property" class="navbar-link" data-nav-link>Propiedades</a>
+              </li>
+
+              <li>
+                <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+              </li>
+
+              <li>
+                <a href="#contact" class="navbar-link" data-nav-link>Contacto</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+
+        <div class="header-bottom-actions">
+
+          <!-- <button class="header-bottom-actions-btn" aria-label="Search">
+            <ion-icon name="search-outline"></ion-icon>
+
+            <span>Search</span>
+          </button> -->
+
+          <button class="header-bottom-actions-btn" aria-label="Profile">
+            <ion-icon name="person-outline"></ion-icon>
+
+            <span>Profile</span>
+          </button>
+          <button class="header-top-btn"  onclick="enviandoLogin()">Iniciar Sesion</button>
+
+          <script>
+            function enviandoLogin(){
+            window.location.href="http://localhost/arxatec/sistema/login/index.php";
+            console.log("Si esta enviando al login")
+            }
+
+          </script>
+          <!-- <button class="header-bottom-actions-btn" aria-label="Cart">
+            <ion-icon name="cart-outline"></ion-icon>
+
+            <span>Cart</span>
+          </button> -->
+
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </header>
+
+   
+<main>
+  <article>
+
+  <section class="hero" id="home">
+      <div class="container">
+
+        <div class="hero-content">
+
+          <p class="hero-subtitle">
+            <ion-icon name="home"></ion-icon>
+
+            <span>Grupo ArxaTEC</span>
+          </p>
+
+          <h2 class="h1 hero-title">¡Grupo ArxaTEC te ofrece asesoramiento legal en línea!</h2>
+
+          <p class="hero-text">
+          Somos una firma de abogados especializada en proporcionar servicios legales a través de consultas en línea. Nuestro equipo de expertos está aquí para brindarte la orientación que necesitas, desde la comodidad de tu hogar. 
+          </p>
+
+          <button class="btn">Haz tu consulta ahora.</button>
+
+        </div>
+
+        <figure class="hero-banner">
+          <img src="./assets/images/balanza.png" alt="Modern house model" class="w-100">
+        </figure>
+
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+
+        <figure class="about-banner">
+          <img src="./assets/images/rafael.jpg" alt="House interior">
+
+          <img src="./assets/images/arxatec.png" alt="House interior" class="abs-img">
+        </figure>
+
+        <div class="about-content">
+
+          <p class="section-subtitle">¿Quienes Somos?</p>
+
+          <h2 class="h2 section-title">La principal plataforma legal de consultas en línea.</h2>
+
+          <p class="about-text">
+          Contamos con un equipo de expertos en derecho distribuidos en más de 70 países alrededor del mundo. Esta amplia cobertura global, junto con nuestros servicios especializados, nos permite brindarte el mejor asesoramiento legal desde la comodidad de tu hogar.
+          </p>
+
+          <ul class="about-list">
+
+            <li class="about-item">
+              <div class="about-item-icon">
+                <ion-icon name="home-outline"></ion-icon>
+              </div>
+
+              <p class="about-item-text">Diseño inteligente de hogares</p>
+            </li>
+
+            <li class="about-item">
+              <div class="about-item-icon">
+                <ion-icon name="leaf-outline"></ion-icon>
+              </div>
+
+              <p class="about-item-text">Entorno hermoso</p>
+            </li>
+
+            <li class="about-item">
+              <div class="about-item-icon">
+                <ion-icon name="wine-outline"></ion-icon>
+              </div>
+
+              <p class="about-item-text">Estilo de vida excepcional</p>
+            </li>
+
+            <li class="about-item">
+              <div class="about-item-icon">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+
+              <p class="about-item-text">Seguridad completa las 24 horas, los 7 días de la semana</p>
+            </li>
+
+          </ul>
+
+          <p class="callout">
+          "Nuestra misión es proporcionarte el mejor asesoramiento legal para resolver tus consultas de manera eficiente y efectiva."
+          </p>
+
+          <a href="#service" class="btn">Nuestros servicios</a>
+
+        </div>
+
+      </div>
+    </section>
+    <section class="service" id="service">
+      <div class="container">
+
+        <p class="section-subtitle">Nuestros Servicios</p>
+
+        <h2 class="h2 section-title">Nuestro Enfoque Principal</h2>
+
+        <ul class="service-list">
+
+          <li>
+            <div class="service-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/i4.png" alt="Service icon">
+              </div>
+
+              <h3 class="h3 card-title">
+                <a href="#">Asesoría Legal <br> en Línea</a>
+              </h3>
+
+              <p class="card-text">
+              Contamos con un equipo de abogados expertos listos para brindarte asesoramiento legal en línea en una amplia gama de áreas legales para ayudarte con tus preocupaciones legales desde la comodidad de tu hogar.
+              </p>
+
+              <a href="#" class="card-link">
+                <span>Obtener Asesoría Legal</span>
+
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </a>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/i3.png" alt="Service icon">
+              </div>
+
+              <h3 class="h3 card-title">
+                <a href="#">Consultas <br>Legales</a>
+              </h3>
+
+              <p class="card-text">
+              Programa consultas legales en línea con nuestros profesionales para resolver tus dudas legales de manera rápida y efectiva, sin la necesidad de desplazarte a un bufete de abogados.
+              </p>
+
+              <a href="#" class="card-link">
+                <span>Programar Consulta</span>
+
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </a>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/i2.png" alt="Service icon">
+              </div>
+
+              <h3 class="h3 card-title">
+                <a href="#">Asistencia Legal Personalizada</a>
+              </h3>
+
+              <p class="card-text">
+              Recibe asistencia legal personalizada a través de videoconferencia o chat en línea, donde podrás discutir tus problemas legales y recibir orientación profesional para encontrar la mejor solución.
+              </p>
+
+              <a href="#" class="card-link">
+                <span>Obtener Asistencia Legal</span>
+
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </a>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+
+    <!-- include 'cards.php'; -->
+     
+    <section class="blog" id="blog">
+      <div class="container">
+
+        <p class="section-subtitle">News & Blogs</p>
+
+        <h2 class="h2 section-title">Revisa Las Ultimas Noticias</h2>
+
+        <ul class="blog-list has-scrollbar">
+
+          <li>
+            <div class="blog-card">
+
+              <figure class="card-banner">
+                <img src="https://www.sumatealexito.com/wp-content/uploads/2022/06/concepto-abogado.jpg" alt="Abogados1" class="w-100">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-content-top">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="person"></ion-icon>
+
+                        <span>by: Admin</span>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="pricetags"></ion-icon>
+
+                        <span>Interior</span>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3 blog-title">
+                    <a href="#">The Most Inspiring Interior Design Of 2021</a>
+                  </h3>
+
+                </div>
+
+                <div class="blog-content-bottom">
+                  <div class="publish-date">
+                    <ion-icon name="calendar"></ion-icon>
+
+                    <time datetime="2022-27-04">Apr 27, 2022</time>
+                  </div>
+
+                  <a href="#" class="read-more-btn">Read More</a>
+                </div>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="blog-card">
+
+              <figure class="card-banner">
+                <img src="https://www.zarla.com/images/Zarla-lawyer-logos-5000x3337-2021023.jpeg?crop=21:16,smart&width=420&dpr=2" alt="Abogados2" class="w-100">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-content-top">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="person"></ion-icon>
+
+                        <span>by: Admin</span>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="pricetags"></ion-icon>
+
+                        <span>Estate</span>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3 blog-title">
+                    <a href="#">Recent Commercial Real Estate Transactions</a>
+                  </h3>
+
+                </div>
+
+                <div class="blog-content-bottom">
+                  <div class="publish-date">
+                    <ion-icon name="calendar"></ion-icon>
+
+                    <time datetime="2022-27-04">Apr 27, 2022</time>
+                  </div>
+
+                  <a href="#" class="read-more-btn">Read More</a>
+                </div>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="blog-card">
+
+              <figure class="card-banner">
+                <img src="https://www.sumatealexito.com/wp-content/uploads/2019/01/Aprende-t%C3%A9rminos-legales-en-ingl%C3%A9s-para-abogados.jpg" alt="Abogados3"
+                  class="w-100">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-content-top">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="person"></ion-icon>
+
+                        <span>by: Admin</span>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="pricetags"></ion-icon>
+
+                        <span>Room</span>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3 blog-title">
+                    <a href="#">Renovating a Living Room? Experts Share Their Secrets</a>
+                  </h3>
+
+                </div>
+
+                <div class="blog-content-bottom">
+                  <div class="publish-date">
+                    <ion-icon name="calendar"></ion-icon>
+
+                    <time datetime="2022-27-04">Apr 27, 2022</time>
+                  </div>
+
+                  <a href="#" class="read-more-btn">Read More</a>
+                </div>
+
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+
+        <p class="section-subtitle">Our Aminities</p>
+
+        <h2 class="h2 section-title">TE OFRECEMOS</h2>
+
+        <ul class="features-list">
+
+          <li>
+            <a href="#" class="features-card">
+
+              <div class="card-icon">
+                <ion-icon name="car-sport-outline"></ion-icon>
+              </div>
+
+              <h3 class="card-title">CONOCE TUS DERECHOS</h3>
+
+              <div class="card-btn">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="features-card">
+
+              <div class="card-icon">
+                <ion-icon name="water-outline"></ion-icon>
+              </div>
+
+              <h3 class="card-title">MÁSTER CLASES NUEVAS</h3>
+
+              <div class="card-btn">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="features-card">
+
+              <div class="card-icon">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+
+              <h3 class="card-title">CLUB DEL TRABAJADOR</h3>
+
+              <div class="card-btn">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="features-card">
+
+              <div class="card-icon">
+                <ion-icon name="fitness-outline"></ion-icon>
+              </div>
+
+              <h3 class="card-title">EDUCACIÓN FINANCIERA</h3>
+
+              <div class="card-btn">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="features-card">
+
+              <div class="card-icon">
+                <ion-icon name="library-outline"></ion-icon>
+              </div>
+
+              <h3 class="card-title">Foro Facebook</h3>
+
+              <div class="card-btn">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="features-card">
+
+              <div class="card-icon">
+                <ion-icon name="bed-outline"></ion-icon>
+              </div>
+
+              <h3 class="card-title">Webinar Gratis</h3>
+
+              <div class="card-btn">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="features-card">
+
+              <div class="card-icon">
+                <ion-icon name="home-outline"></ion-icon>
+              </div>
+
+              <h3 class="card-title">Cursos Gratis</h3>
+
+              <div class="card-btn">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="features-card">
+
+              <div class="card-icon">
+                <ion-icon name="football-outline"></ion-icon>
+              </div>
+
+              <h3 class="card-title">Testimonios y opiniones</h3>
+
+              <div class="card-btn">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- include 'webinars.php'; -->
+     
+      <section class="cta">
+        <div class="container">
+
+          <div class="cta-card">
+            <div class="card-content">
+              <h2 class="h2 card-title">¿Buscas espacios para tu equipo?</h2>
+
+              <p class="card-text">La Base Cowork te ofrece los mejores espacios para hacer despejar tus ideas</p>
+            </div>
+
+            <button class="btn cta-btn">
+              <span>Saber mas</span>
+
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logarxa1.png" alt="Homeverse logo">
+          </a>
+
+          <p class="section-text">
+            ArxaTEC está dedicada a proporcionar asesoramiento legal en línea accesible y confiable para ciudadanos.
+          </p>
+
+          <ul class="contact-list">
+
+            <li>
+              <a href="#" class="contact-link">
+                <ion-icon name="location-outline"></ion-icon>
+
+                <address>Jr. Tacna 234, Edificio GALENA, piso 10, Huancayo, Peru</address>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+0123456789" class="contact-link">
+                <ion-icon name="call-outline"></ion-icon>
+
+                <span>960 270 555</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:contact@homeverse.com" class="contact-link">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <span>contacto@xpertice.pe</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Empresa</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Acerca de</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Todos los Servicios</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Mapa de Ubicaciones</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Preguntas Frecuentes</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contáctanos</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Servicios</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Seguimiento de Pedidos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Lista de Deseos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Iniciar Sesión</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Mi Cuenta</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Términos y Condiciones
+</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Ofertas Promocionales</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Atención al Cliente</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Iniciar Sesión</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Mi Cuenta</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Lista de Deseos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Seguimiento de Pedidos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Preguntas Frecuentes</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contáctanos</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#">ArxaTEC</a>. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="../js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
