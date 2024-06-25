@@ -1,905 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Portfolio | Rafael Aguirre</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Dr. Rafael Aguirre</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <!-- <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre mí</a></li>
+          <li><a href="#">Resumen</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul> -->
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">Hola</p>
+          <h1 class="title">
+            Soy <span>Rafael Aguirre</span><br />tu amigo legal
+          </h1>
+          
+          <br>
+          <div class="action__btns">
+            <button class="hire__me">Sobre mi</button>
+            <button class="portfolio">Curriculum</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/img/profile.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ArxaTEC</title>
-  <link rel="shortcut icon" href="../images/logarxa1.png" type="image/svg+xml">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-
-  <header class="header" data-header>
-
-    
-
-    <div class="overlay" data-overlay></div>
-
-    <div class="header-top">
+    <!-- Seccion de about me -->
+    <article id="about" class="about">
       <div class="container">
 
-        <ul class="header-top-list">
+          <div class="group__text">
+              
+              <h2 class="group__title">
+              SOBRE MÍ
+              </h2>
+              <br><br>
+              <br><br>
+              <figure class="about-banner">
+                <img src="assets/img/123.jpg" alt="">
 
-          <li>
-            <a href="mailto:info@homeverse.com" class="header-top-link">
-              <ion-icon name="mail-outline"></ion-icon>
+                
+             </figure>
+          </div>
 
-              <span>ArxaTEC@gmail.com</span>
-            </a>
-          </li>
+          <div class="about__right">
+            <div class="description">
+            <p class="about__right-text">
+                Mi nombre es Rafael Martin Aguirre Gonzalo, me dedico a resolver problemas. Soy abogado especializado en derecho laboral y empresarial. Soy emprendedor y empresario.   
+              </p>
+              <br>
+              <p class="about__right-text-bottom">
+                Mis intereses personales y profesionales están relacionados a generar soluciones para resolver problemas de las personas en los sectores de servicios legales, salud, educación, alimentación, finanzas y vivienda. 
+              </p>
+              <br>
+              <p>
+              He constituido las empresas ACG SAC (Consultoría Legal y empresarial) SOLYDE SAC (Consultoría económica y emprendimiento) ADN EIRL (Administración de negocios y propiedades).
+              </p>
+              <br>
+              <p>Me encuentro en la búsqueda de diversas formas de facilitar el acceso al conocimiento de los derechos de las personas para que puedan acceder a la defensa legal y ejercer sus derechos, que, en nuestro país, en su generalidad, está reservado para aquellas personas que ostentan capacidad económica para el pago de altos honorarios de los abogados. Por ello nace la inquietud de crear una plataforma web para servicios legales en línea (Arxatec).</p>
 
-          <li>
-            <a href="#" class="header-top-link">
-              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-              <address>Edificio Galena, Piso 1000</address>
-            </a>
-          </li>
-
-        </ul>
-
-        <div class="wrapper">
-          <ul class="header-top-social-list">
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="header-top-social-link">
-                <ion-icon name="logo-pinterest"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
+              
 
           
-        </div>
 
-      </div>
-    </div>
-    <div class="header-bottom">
-      <div class="container">
-
-        <a href="#" class="logo">
-          <img src="/images/logarxa1.png" alt="Homeverse logo"> 
-        </a>
-
-        <nav class="navbar" data-navbar>
-
-          <div class="navbar-top">
-
-            <a href="#" class="logo">
-              <img src="/images/logo.png" alt="Homeverse logo">
               
-            </a>
-
-            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
           </div>
-
-          <div class="navbar-bottom">
-            <ul class="navbar-list">
-
-              <li>
-                <a href="#home" class="navbar-link" data-nav-link>Home</a>
-              </li>
-
-              <li>
-                <a href="#about" class="navbar-link" data-nav-link>Sobre Nosotros</a>
-              </li>
-
-              <li>
-                <a href="#service" class="navbar-link" data-nav-link>Servicios</a>
-              </li>
-
-              <li>
-                <a href="#property" class="navbar-link" data-nav-link>Propiedades</a>
-              </li>
-
-              <li>
-                <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
-              </li>
-
-              <li>
-                <a href="#contact" class="navbar-link" data-nav-link>Contacto</a>
-              </li>
-
-            </ul>
-          </div>
-
-        </nav>
-
-        <div class="header-bottom-actions">
-
-          <!-- <button class="header-bottom-actions-btn" aria-label="Search">
-            <ion-icon name="search-outline"></ion-icon>
-
-            <span>Search</span>
-          </button> -->
-
-          <button class="header-bottom-actions-btn" aria-label="Profile">
-            <ion-icon name="person-outline"></ion-icon>
-
-            <span>Profile</span>
-          </button>
-          <button class="header-top-btn"  onclick="enviandoLogin()">Iniciar Sesion</button>
-
-          <script>
-            function enviandoLogin(){
-            window.location.href="http://localhost/arxatec/sistema/login/index.php";
-            console.log("Si esta enviando al login")
-            }
-
-          </script>
-          <!-- <button class="header-bottom-actions-btn" aria-label="Cart">
-            <ion-icon name="cart-outline"></ion-icon>
-
-            <span>Cart</span>
-          </button> -->
-
-          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
-            <ion-icon name="menu-outline"></ion-icon>
-
-            <span>Menu</span>
-          </button>
-
-        </div>
 
       </div>
+
+  </article>
+
+    <!-- Seccion de la problematica -->
+    <section id="about" class="about">
+      <div class="container">
+           <div class="group__text">
+                <p class="group__top">
+                    <img src="assets/img/line.svg" alt="">
+                </p>
+  
+                <h2 class="group__title">
+                 
+                  DESCRIPCIÓN DE LA PROBLEMÁTICA
+                </h2>
+                <BR></BR>
+            </div>
+          <br>
+          <div class="description">
+              <p class="viñetas">
+              
+              El acceso a la defensa legal laboral, de acuerdo a estudios de mercado realizados con nuestro equipo de trabajo, encuentra barreras que están relacionadas a los abogados.
+              <br> <br>Dado que cuando una persona con empleo formal requiere el asesoramiento de un abogado se encuentra con los siguientes limitantes:
+                  <br><br><span> 1) Honorarios elevados</span>, en muchos casos difíciles de costear; <br><br>
+                  <span>2) Abogados no especializados</span>, cobran menos honorarios, pero no conocen la especialidad a tratar;
+                  <br> <br><span></span>3) Indisponibilidad, los mejores abogados y especializados están muy ocupados con muchos casos por resolver; 
+                  <br><br><span>4) Desconfianza</span>, la gente piensa que el abogado puede ser infiel en la defensa de su caso y someterse al poder económico de la contraparte;<br><br> 
+                  <span>5) Mala experiencia</span>, las personas tuvieron experiencias negativas en la defensa de sus casos por falta de experiencia de los abogados.
+              </p>
+  
+          </div>
+          
+  
+          <img class="img__problemas" src="assets/img/k.png" alt="">
+      </div>
+      
+  </section>
+  
+
+  <section id="awards" class="awards">
+    <div class="container">
+        <div class="group__text">
+            <p class="group__top">
+                <img src="assets/img/line.svg" alt="">
+            </p>
+
+            <h2 class="group__title">
+                Esta problemática está relacionada a los siguientes Objetivos de Desarrollo Sostenible 
+            </h2>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="awards__categories">
+            <a href="" target="_blank">
+                <span class="head"></span>
+                <span class="desc"></span>
+            </a>
+
+            <a href="" target="_blank">
+                <span class="head">ODS</span>
+                <span class="desc"></span>
+            </a>
+
+            <a href="" target="_blank">
+                <span class="head">METRICA</span>
+                <span class="desc"></span>
+            </a>
+
+            <a href="" target="_blank">
+                <span class="head">8.- TRABAJO DOCENTE</span>
+                <span class="desc"></span>
+            </a>
+
+            <a href="" target="_blank">
+                <span class="head"></span>
+                <span class="desc">8.8 Proteger los derechos laborales </span>
+            </a>
+
+            <a href="" target="_blank">
+                <span class="head"></span>
+                <span class="desc">8.8.2 Nivel de cumplimiento nacional de los derechos laborales </span>
+            </a>
+
+            <a href="" target="_blank">
+                <span class="head">16.- JUSTICIA</span>
+                <span class="desc"></span>
+            </a>
+
+            <a href="" target="_blank">
+                <span class="head"></span>
+                <span class="desc">16.3 Promover y garantizar la igualdad de acceso a la justicia para todos </span>
+            </a>
+
+            <a href="" target="_blank">
+                <span class="head"></span>
+                <span class="desc">16.3.3 Proporción de la población que se ha visto implicada en alguna controversia en los dos últimos años y ha accedido a algún mecanismo oficial u oficioso de solución de controversias, desglosada por tipo de mecanismo</span>
+            </a>
+        </div>
     </div>
-
-
-  </header>
-
-   
-<main>
-  <article>
-
-  <section class="hero" id="home">
-      <div class="container">
-
-        <div class="hero-content">
-
-          <p class="hero-subtitle">
-            <ion-icon name="home"></ion-icon>
-
-            <span>Grupo ArxaTEC</span>
-          </p>
-
-          <h2 class="h1 hero-title">¡Grupo ArxaTEC te ofrece asesoramiento legal en línea!</h2>
-
-          <p class="hero-text">
-          Somos una firma de abogados especializada en proporcionar servicios legales a través de consultas en línea. Nuestro equipo de expertos está aquí para brindarte la orientación que necesitas, desde la comodidad de tu hogar. 
-          </p>
-
-          <button class="btn">Haz tu consulta ahora.</button>
-
-        </div>
-
-        <figure class="hero-banner">
-          <img src="/images/balanza.png" alt="Modern house model" class="w-100">
-        </figure>
-
-      </div>
-    </section>
-    <section class="about" id="about">
-      <div class="container">
-
-        <figure class="about-banner">
-          <img src="/images/rafael.jpg" alt="House interior">
-
-          <img src="/images/arxatec.png" alt="House interior" class="abs-img">
-        </figure>
-
-        <div class="about-content">
-
-          <p class="section-subtitle">¿Quienes Somos?</p>
-
-          <h2 class="h2 section-title">La principal plataforma legal de consultas en línea.</h2>
-
-          <p class="about-text">
-          Contamos con un equipo de expertos en derecho distribuidos en más de 70 países alrededor del mundo. Esta amplia cobertura global, junto con nuestros servicios especializados, nos permite brindarte el mejor asesoramiento legal desde la comodidad de tu hogar.
-          </p>
-
-          <ul class="about-list">
-
-            <li class="about-item">
-              <div class="about-item-icon">
-                <ion-icon name="home-outline"></ion-icon>
-              </div>
-
-              <p class="about-item-text">Diseño inteligente de hogares</p>
-            </li>
-
-            <li class="about-item">
-              <div class="about-item-icon">
-                <ion-icon name="leaf-outline"></ion-icon>
-              </div>
-
-              <p class="about-item-text">Entorno hermoso</p>
-            </li>
-
-            <li class="about-item">
-              <div class="about-item-icon">
-                <ion-icon name="wine-outline"></ion-icon>
-              </div>
-
-              <p class="about-item-text">Estilo de vida excepcional</p>
-            </li>
-
-            <li class="about-item">
-              <div class="about-item-icon">
-                <ion-icon name="shield-checkmark-outline"></ion-icon>
-              </div>
-
-              <p class="about-item-text">Seguridad completa las 24 horas, los 7 días de la semana</p>
-            </li>
-
-          </ul>
-
-          <p class="callout">
-          "Nuestra misión es proporcionarte el mejor asesoramiento legal para resolver tus consultas de manera eficiente y efectiva."
-          </p>
-
-          <a href="#service" class="btn">Nuestros servicios</a>
-
-        </div>
-
-      </div>
-    </section>
-    <section class="service" id="service">
-      <div class="container">
-
-        <p class="section-subtitle">Nuestros Servicios</p>
-
-        <h2 class="h2 section-title">Nuestro Enfoque Principal</h2>
-
-        <ul class="service-list">
-
-          <li>
-            <div class="service-card">
-
-              <div class="card-icon">
-                <img src="/images/i4.png" alt="Service icon">
-              </div>
-
-              <h3 class="h3 card-title">
-                <a href="#">Asesoría Legal <br> en Línea</a>
-              </h3>
-
-              <p class="card-text">
-              Contamos con un equipo de abogados expertos listos para brindarte asesoramiento legal en línea en una amplia gama de áreas legales para ayudarte con tus preocupaciones legales desde la comodidad de tu hogar.
-              </p>
-
-              <a href="#" class="card-link">
-                <span>Obtener Asesoría Legal</span>
-
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </a>
-
-            </div>
-          </li>
-
-          <li>
-            <div class="service-card">
-
-              <div class="card-icon">
-                <img src="/images/i3.png" alt="Service icon">
-              </div>
-
-              <h3 class="h3 card-title">
-                <a href="#">Consultas <br>Legales</a>
-              </h3>
-
-              <p class="card-text">
-              Programa consultas legales en línea con nuestros profesionales para resolver tus dudas legales de manera rápida y efectiva, sin la necesidad de desplazarte a un bufete de abogados.
-              </p>
-
-              <a href="#" class="card-link">
-                <span>Programar Consulta</span>
-
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </a>
-
-            </div>
-          </li>
-
-          <li>
-            <div class="service-card">
-
-              <div class="card-icon">
-                <img src="/images/i2.png" alt="Service icon">
-              </div>
-
-              <h3 class="h3 card-title">
-                <a href="#">Asistencia Legal Personalizada</a>
-              </h3>
-
-              <p class="card-text">
-              Recibe asistencia legal personalizada a través de videoconferencia o chat en línea, donde podrás discutir tus problemas legales y recibir orientación profesional para encontrar la mejor solución.
-              </p>
-
-              <a href="#" class="card-link">
-                <span>Obtener Asistencia Legal</span>
-
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </a>
-
-            </div>
-          </li>
-
-        </ul>
-
-      </div>
-    </section>
-
-
-    <!-- include 'cards.php'; -->
-     
-    <section class="blog" id="blog">
-      <div class="container">
-
-        <p class="section-subtitle">News & Blogs</p>
-
-        <h2 class="h2 section-title">Revisa Las Ultimas Noticias</h2>
-
-        <ul class="blog-list has-scrollbar">
-
-          <li>
-            <div class="blog-card">
-
-              <figure class="card-banner">
-                <img src="https://www.sumatealexito.com/wp-content/uploads/2022/06/concepto-abogado.jpg" alt="Abogados1" class="w-100">
-              </figure>
-
-              <div class="blog-content">
-
-                <div class="blog-content-top">
-
-                  <ul class="card-meta-list">
-
-                    <li>
-                      <a href="#" class="card-meta-link">
-                        <ion-icon name="person"></ion-icon>
-
-                        <span>by: Admin</span>
-                      </a>
-                    </li>
-
-                    <li>
-                      <a href="#" class="card-meta-link">
-                        <ion-icon name="pricetags"></ion-icon>
-
-                        <span>Interior</span>
-                      </a>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3 blog-title">
-                    <a href="#">The Most Inspiring Interior Design Of 2021</a>
-                  </h3>
-
-                </div>
-
-                <div class="blog-content-bottom">
-                  <div class="publish-date">
-                    <ion-icon name="calendar"></ion-icon>
-
-                    <time datetime="2022-27-04">Apr 27, 2022</time>
-                  </div>
-
-                  <a href="#" class="read-more-btn">Read More</a>
-                </div>
-
-              </div>
-
-            </div>
-          </li>
-
-          <li>
-            <div class="blog-card">
-
-              <figure class="card-banner">
-                <img src="https://www.zarla.com/images/Zarla-lawyer-logos-5000x3337-2021023.jpeg?crop=21:16,smart&width=420&dpr=2" alt="Abogados2" class="w-100">
-              </figure>
-
-              <div class="blog-content">
-
-                <div class="blog-content-top">
-
-                  <ul class="card-meta-list">
-
-                    <li>
-                      <a href="#" class="card-meta-link">
-                        <ion-icon name="person"></ion-icon>
-
-                        <span>by: Admin</span>
-                      </a>
-                    </li>
-
-                    <li>
-                      <a href="#" class="card-meta-link">
-                        <ion-icon name="pricetags"></ion-icon>
-
-                        <span>Estate</span>
-                      </a>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3 blog-title">
-                    <a href="#">Recent Commercial Real Estate Transactions</a>
-                  </h3>
-
-                </div>
-
-                <div class="blog-content-bottom">
-                  <div class="publish-date">
-                    <ion-icon name="calendar"></ion-icon>
-
-                    <time datetime="2022-27-04">Apr 27, 2022</time>
-                  </div>
-
-                  <a href="#" class="read-more-btn">Read More</a>
-                </div>
-
-              </div>
-
-            </div>
-          </li>
-
-          <li>
-            <div class="blog-card">
-
-              <figure class="card-banner">
-                <img src="https://www.sumatealexito.com/wp-content/uploads/2019/01/Aprende-t%C3%A9rminos-legales-en-ingl%C3%A9s-para-abogados.jpg" alt="Abogados3"
-                  class="w-100">
-              </figure>
-
-              <div class="blog-content">
-
-                <div class="blog-content-top">
-
-                  <ul class="card-meta-list">
-
-                    <li>
-                      <a href="#" class="card-meta-link">
-                        <ion-icon name="person"></ion-icon>
-
-                        <span>by: Admin</span>
-                      </a>
-                    </li>
-
-                    <li>
-                      <a href="#" class="card-meta-link">
-                        <ion-icon name="pricetags"></ion-icon>
-
-                        <span>Room</span>
-                      </a>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3 blog-title">
-                    <a href="#">Renovating a Living Room? Experts Share Their Secrets</a>
-                  </h3>
-
-                </div>
-
-                <div class="blog-content-bottom">
-                  <div class="publish-date">
-                    <ion-icon name="calendar"></ion-icon>
-
-                    <time datetime="2022-27-04">Apr 27, 2022</time>
-                  </div>
-
-                  <a href="#" class="read-more-btn">Read More</a>
-                </div>
-
-              </div>
-
-            </div>
-          </li>
-
-        </ul>
-
-      </div>
-    </section>
-
-    <section class="features">
-      <div class="container">
-
-        <p class="section-subtitle">Our Aminities</p>
-
-        <h2 class="h2 section-title">TE OFRECEMOS</h2>
-
-        <ul class="features-list">
-
-          <li>
-            <a href="#" class="features-card">
-
-              <div class="card-icon">
-                <ion-icon name="car-sport-outline"></ion-icon>
-              </div>
-
-              <h3 class="card-title">CONOCE TUS DERECHOS</h3>
-
-              <div class="card-btn">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="features-card">
-
-              <div class="card-icon">
-                <ion-icon name="water-outline"></ion-icon>
-              </div>
-
-              <h3 class="card-title">MÁSTER CLASES NUEVAS</h3>
-
-              <div class="card-btn">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="features-card">
-
-              <div class="card-icon">
-                <ion-icon name="shield-checkmark-outline"></ion-icon>
-              </div>
-
-              <h3 class="card-title">CLUB DEL TRABAJADOR</h3>
-
-              <div class="card-btn">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="features-card">
-
-              <div class="card-icon">
-                <ion-icon name="fitness-outline"></ion-icon>
-              </div>
-
-              <h3 class="card-title">EDUCACIÓN FINANCIERA</h3>
-
-              <div class="card-btn">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="features-card">
-
-              <div class="card-icon">
-                <ion-icon name="library-outline"></ion-icon>
-              </div>
-
-              <h3 class="card-title">Foro Facebook</h3>
-
-              <div class="card-btn">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="features-card">
-
-              <div class="card-icon">
-                <ion-icon name="bed-outline"></ion-icon>
-              </div>
-
-              <h3 class="card-title">Webinar Gratis</h3>
-
-              <div class="card-btn">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="features-card">
-
-              <div class="card-icon">
-                <ion-icon name="home-outline"></ion-icon>
-              </div>
-
-              <h3 class="card-title">Cursos Gratis</h3>
-
-              <div class="card-btn">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="features-card">
-
-              <div class="card-icon">
-                <ion-icon name="football-outline"></ion-icon>
-              </div>
-
-              <h3 class="card-title">Testimonios y opiniones</h3>
-
-              <div class="card-btn">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-    </section>
-
-    <!-- include 'webinars.php'; -->
-     
-      <section class="cta">
-        <div class="container">
-
-          <div class="cta-card">
-            <div class="card-content">
-              <h2 class="h2 card-title">¿Buscas espacios para tu equipo?</h2>
-
-              <p class="card-text">La Base Cowork te ofrece los mejores espacios para hacer despejar tus ideas</p>
-            </div>
-
-            <button class="btn cta-btn">
-              <span>Saber mas</span>
-
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer">
-
-    <div class="footer-top">
-      <div class="container">
-
-        <div class="footer-brand">
-
-          <a href="#" class="logo">
-            <img src="/images/logarxa1.png" alt="Homeverse logo">
-          </a>
-
-          <p class="section-text">
-            ArxaTEC está dedicada a proporcionar asesoramiento legal en línea accesible y confiable para ciudadanos.
-          </p>
-
-          <ul class="contact-list">
-
-            <li>
-              <a href="#" class="contact-link">
-                <ion-icon name="location-outline"></ion-icon>
-
-                <address>Jr. Tacna 234, Edificio GALENA, piso 10, Huancayo, Peru</address>
-              </a>
-            </li>
-
-            <li>
-              <a href="tel:+0123456789" class="contact-link">
-                <ion-icon name="call-outline"></ion-icon>
-
-                <span>960 270 555</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="mailto:contact@homeverse.com" class="contact-link">
-                <ion-icon name="mail-outline"></ion-icon>
-
-                <span>contacto@xpertice.pe</span>
-              </a>
-            </li>
-
-          </ul>
-
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <div class="footer-link-box">
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-list-title">Empresa</p>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Acerca de</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Blog</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Todos los Servicios</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Mapa de Ubicaciones</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Preguntas Frecuentes</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Contáctanos</a>
-            </li>
-
-          </ul>
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-list-title">Servicios</p>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Seguimiento de Pedidos</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Lista de Deseos</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Iniciar Sesión</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Mi Cuenta</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Términos y Condiciones
-</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Ofertas Promocionales</a>
-            </li>
-
-          </ul>
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-list-title">Atención al Cliente</p>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Iniciar Sesión</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Mi Cuenta</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Lista de Deseos</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Seguimiento de Pedidos</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Preguntas Frecuentes</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Contáctanos</a>
-            </li>
-
-          </ul>
-
-        </div>
-
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-
-        <p class="copyright">
-          &copy; 2024 <a href="#">ArxaTEC</a>. All Rights Reserved
+</section>
+
+  
+<section id="about">
+  <div class="container">
+    <div class="group__text">
+        <p class="group__top">
+            <img src="assets/img/line.svg" alt="">
         </p>
 
-      </div>
+        <h2 class="group__title">
+        Análisis de la Propuesta de Solución
+        </h2>
     </div>
 
-  </footer>
+</div>
+<!-- User Introduction-->
+<div class="description">
+  <br>
+  <div class="container">
+      <p>
+      La propuesta de solución es crear una plataforma web que permita el acceso 24/7 desde cualquier lugar del país, a la defensa laboral de manera digital y remota. Ello permitirá que los usuarios tengan los siguientes beneficios:<br><br> 1) Acceso a la formación en derechos laborales;<br><br> 2) Acceso a consultas laborales gratuitas; <br><br>3) Acceso a planes de asesoramiento de acuerdo a su necesidad y economía;<br><br> 4) Acceso a defensa en juicio por etapas y acciones necesarias, esto permite que los usuarios asuman un menor costo del servicio.
+<br><br>Las necesidades que estamos resolviendo es el acceso a la defensa laboral a bajo coste, con disponibilidad de atención 24/7, atendido por un equipo de profesionales especializados con trayectoria de éxito en la defensa de derechos laborales, bajo planes de suscripción freemium (cero costos) y planes de pago sujeto a periodo de prueba gratuita para generar trasparencia en el servicio.
+<br><br>Las necesidades que resolveremos se relacionan directamente con los ODS, dado que busca la protección de los derechos laborales (ODS 8.8) medible por el nivel de cumplimiento de los derechos laborales, asimismo promover la igualdad de acceso a la justicia (ODS 16.3). 
+<br><br>El impacto en la comunidad será positiva dado que permitirá que muchas personas con empleo formal o no puedan en primer lugar conocer sobre sus derechos laborales que le dará herramientas para hacer valer la protección de sus derechos laborales y, en segundo lugar, en caso tenga algún problema laboral podrá acceder a la defensa laboral de manera rápida, económica y según su necesidad.
 
-  <script src="/js/script.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      </p>
+  </div>
 
-</body>
 
+  
+</div>
+
+
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="group__text">
+        <p class="group__top">
+            <img src="assets/img/line.svg" alt="">
+        </p>
+
+        <h2 class="group__title">
+        Ajustes Propuestos
+        </h2>
+    </div>
+
+</div>
+<!-- User Introduction-->
+<div class="description">
+  <br>
+  <div class="container">
+      <p>
+      Para maximizar el impacto en las necesidades identificadas y en base a lo aprendido en el presente curso, utilizando las 4 lentes de la innovación y economías transformadoras, me permito dar las siguientes recomendaciones como ajustes que mejoraran el proyecto: 
+<br> <br><span>•	Generar documentos automatizados que permita a los usuarios autogenerar el documento laboral que requieren sin necesidad de recurrir a la oficina de un abogado.</span>
+<br> <br><span>•	Generar sección de respuestas inmediatas como “auxilios legales” sobre acciones básicas inmediatas a realizar frente a una situación de contingencia legal laboral que permitirá al usuario a reaccionar preventivamente en favor a la protección de sus derechos afectados. Ejemplo: ¿Qué debo hace si no me dejan ingresar a mi centro de trabajo? Rspta: Realiza una constatación policial o de Sunafil para dejar constancia de ese hecho.</span>
+
+
+      </p>
+  </div>
+
+
+  
+</div>
+
+
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="group__text">
+        <p class="group__top">
+            <img src="assets/img/line.svg" alt="">
+        </p>
+
+        <h2 class="group__title">
+        Autorreflexión del Proceso
+        </h2>
+    </div>
+
+</div>
+<!-- User Introduction-->
+<div class="description">
+  <br>
+  <div class="container">
+      <p>
+      •	Reflexión Personal: Esto ha influido de manera positiva me ha permitido saber cómo la tecnología puede ayudar a las personas a ahorrar dinero y tiempo para acceder a un servicio que aparentemente solo puede ser brindado de manera presencial.
+<br><br>•	Reflexión Profesional: En el ámbito profesional me ha permitido conocer que es posible atender a muchas personas sobre un asunto legal gracias al uso de la tecnología, He aprendido a conocer con mayor detalle que etras de un problema legal también existen otros problemas personales de los usuario o clientes que también deben ser atendidos y cubiertas, como la capacidad económica o la ubicación en lugares que no existen especialistas. 
+<br><br>•	Reflexión como Ciudadano Local y Global: Dentro de mi comunidad mi contribución es mediante el ejercicio de mi profesión busco apoyar a muchas personas en la defensa de sus derechos laborales y en muchos casos al acceso a la defensa y justicia laboral cuando las personas no tienen recursos económicos para ejercerlos ante las autoridades de nuestro país.
+
+
+
+      </p>
+  </div>
+
+
+  
+</div>
+
+
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="group__text">
+        <p class="group__top">
+            <img src="assets/img/line.svg" alt="">
+        </p>
+
+        <h2 class="group__title">
+        Rol de la Responsabilidad Empresarial
+        </h2>
+    </div>
+
+</div>
+<!-- User Introduction-->
+<div class="description">
+  <br>
+  <div class="container">
+      <p>
+      Las empresas y todo ente económico tienen la responsabilidad de actuar bajo valores éticos del respeto a los derechos de las personas, así como preservar el medio ambiente en el cual desarrolla sus actividades.
+      <br><br> Desde esa perspectiva considero que las empresas son agentes de cambio positivo dado que sus colaboradores alinean sus valores a los de la empresa y buscan actuar con responsabilidad tanto a favor de los clientes como también de todos sus “stakeholders”, ello permite que la empresa sea sostenible en el tiempo dado que obtendrá muchos beneficios al impactar positivamente en la sociedad con precios accesibles para sus clientes respetando las leyes en favor de sus trabajadores, y cuidando el medio ambiente evitando la contaminación con la fabricación de productos que no afecten a la comunidad en general.
+       <br><br>En esencia el modelo de negocio debe baarse en las economías transformadoras de acuerdo al sector para lograr un beneficio mutuo (sociedad, medio ambiente y ganancias)  
+
+
+
+      </p>
+  </div>
+
+
+  
+</div>
+
+
+</section>
+          <br>
+          <br>
+
+<div class="footer-bottom">
+<div class="container">
+
+  <p class="copyright">
+    &copy; 2024 Rafael Martin Aguirre Gonzalo.
+  </p>
+
+</div>
+</div>
+
+
+
+
+
+    
+  </body>
 </html>
