@@ -1,0 +1,5 @@
+Si funciona, no lo toques.
+Esta desordenado pero basicamente va asi.
+Web esta los estilos y recursos que usa Login.html
+Assets esta todo lo que funciona para el portafolio
+Lo que esta afuera como css, js e images esta lo que sirve a La pagina web de arxatec 
